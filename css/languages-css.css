@@ -1,0 +1,67 @@
+html {
+    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+}
+
+html ,body {
+    width: 100%;
+    height: 100%;
+    min-width: 320px;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.nav {
+    background-color: #26a69a;
+}
+
+.brand-logo {
+    left: 15px;
+    top: 5px;
+}
+
+.strong-link {
+   font-weight: bold;
+   font-size: 16px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.section .text-title {
+    font-weight: bold;
+    font-size: medium;
+}
+
+.banner-title {
+    margin-top: 35px;
+    color: red;
+}
+
+.parallax-container {
+    height: 100%;
+}
+
+.collapsible-title {
+    margin-left: 10px;
+    color: #0f9d58;
+    font-weight: bold;
+}
+
+.collapsible-banner {
+    margin-left: 10px;
+    color: #3d5afe;
+    font-size: small;
+}
+
+@media only screen and (min-width: 1200px) {
+    .brand-logo {
+        left: 15px;
+    }
+}
+
+@media only screen and (min-width: 920px) {
+
+}
